@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="music-player">
+        <h1 class="music-name">name</h1>
+        <p class="artist-name">artist</p>
+        <div class="disk "></div>
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration-time">00:00</span>
+        </div>
+        <div class="controls">
+            <button class="btn backward-btn"><i class="fas fa-step-backward"></i></button>
+            <button class="play-btn pause">
+                <span><i class="fas fa-pause "></i></span>
+                <span><i class="fas fa-play  show "></i></span>
+            </button>
+            <button class="btn forward-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+    </div>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
